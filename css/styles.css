@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -9,11 +10,98 @@ body {
   font-weight: 400;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  margin: auto;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
 h1,
 h2 {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
+.hero {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  min-height: 80vh;
+  margin: auto;
+  padding: 50px 10px;
+  gap: 20px;
+}
+
+#hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 710px;
+}
+#hero-content h1 {
+  font-size: 40px;
+  line-height: 60px;
+  color: hsl(243, 87%, 12%);
+  width: 85%;
+}
+
+#hero-content p {
+  font-size: 18px;
+  line-height: 32px;
+  color: hsl(243, 87%, 12%);
+  width: 85%;
+}
+#email-top {
+  padding: 15px;
+  width: 50%;
+  border: 1px solid hsl(243, 87%, 12%);
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+#button-top {
+  padding: 15px;
+  width: 30%;
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 3px;
+}
+
+#hero-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 710px;
+}
+
+#hero-image img {
+  width: 100%;
+  height: auto;
+}
+.icons img {
+  height: auto;
+  width: 20px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
