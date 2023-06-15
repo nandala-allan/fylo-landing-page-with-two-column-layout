@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -58,6 +58,7 @@ h2 {
   gap: 20px;
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
 #hero-content {
@@ -248,7 +249,7 @@ h2 {
 
 #button-bottom {
   padding: 20px;
-  width: 30%;
+  /* width: 30%; */
   background-color: hsl(224, 93%, 58%);
   color: hsl(0, 0%, 100%);
   font-size: 16px;
@@ -256,10 +257,62 @@ h2 {
   border: none;
   border-radius: 3px;
 }
-.icons img {
-  height: auto;
-  width: 20px;
-  object-fit: cover;
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 10px;
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(0, 0%, 100%);
+}
+#company-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 25%;
+  gap: 20px;
+}
+svg {
+  fill: hsl(0, 0%, 100%);
+}
+.contacts {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 25%;
+  position: relative;
+  top: 80px;
+}
+
+.contact-details li {
+  list-style: none;
+}
+
+#socials {
+  width: 25%;
+  position: relative;
+  top: 80px;
+}
+
+#socials i {
+  font-size: 20px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 8px;
+}
+
+#socials i:hover {
+  color: hsl(224, 93%, 58%);
+  border: 1px solid hsl(224, 93%, 58%);
+  cursor: pointer;
 }
 .attribution {
   font-size: 11px;
