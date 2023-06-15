@@ -13,23 +13,26 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 80px;
+  justify-content: end;
+  align-items: center;
+  min-height: 100px;
 }
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   width: 80%;
-  margin: auto;
 }
-ul {
+nav ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 40px;
+  gap: 80px;
   list-style: none;
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: hsl(238, 22%, 44%);
 }
 
 h1,
@@ -104,6 +107,11 @@ h2 {
   border-radius: 3px;
 }
 
+#button-top:hover {
+  cursor: pointer;
+  background-color: hsl(224, 93%, 68%);
+}
+
 #hero-image {
   display: flex;
   flex-direction: column;
@@ -156,6 +164,12 @@ h2 {
   position: relative;
   cursor: pointer;
   margin-bottom: 30px;
+}
+
+#cta-button:hover {
+  cursor: pointer;
+  color: hsl(170, 45%, 63%);
+  border-bottom: 1px solid hsl(170, 45%, 63%);
 }
 #arrow {
   width: 12%;
@@ -261,6 +275,11 @@ h2 {
   border-radius: 3px;
 }
 
+#button-bottom:hover {
+  cursor: pointer;
+  background-color: hsl(224, 93%, 68%);
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -296,6 +315,11 @@ svg {
 
 .contact-details li {
   list-style: none;
+}
+
+.contact-details li:hover {
+  cursor: pointer;
+  color: hsl(224, 93%, 58%);
 }
 
 #socials {
