@@ -14,7 +14,7 @@ header {
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  min-height: 80px;
+  min-height: 100px;
 }
 header nav {
   display: flex;
@@ -376,6 +376,10 @@ svg {
 
 /* media querries */
 @media (min-width: 320px) and (max-width: 768px) {
+  header {
+    min-height: 80px;
+  }
+
   header nav {
     width: 100%;
     padding: 15px;
