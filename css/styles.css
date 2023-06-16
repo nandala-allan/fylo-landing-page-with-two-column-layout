@@ -671,3 +671,29 @@ svg {
     font-size: 15px;
   }
 }
+
+@media (width: 1440px) {
+  #hero-content h1 {
+    font-size: 35px;
+    line-height: 50px;
+    width: 100%;
+  }
+
+  #hero-content p {
+    width: 98%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #mid-section-content h2 {
+    font-size: 32px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
