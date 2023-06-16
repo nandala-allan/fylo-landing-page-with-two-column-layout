@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo landing page with two column layout solution
 
-This is a solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,9 +14,8 @@ This is a solution to the [Fylo landing page with two column layout challenge on
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
-
 ## Overview
+
 Fylo landing page with two column layout solution with flexbox responsive layout
 
 ### The challenge
@@ -28,13 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![/.images/screenshot.png]()
-
-
+![./images/screenshot.png](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fylolandingpagewithtwocolumnlayout-udyFwt3DsG]
 - Live Site URL: [https://exquisite-chaja-38e516.netlify.app/]
 
 ##Process
@@ -46,10 +43,9 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-
 ### What I learned
 
-i learned to make the website responsive. 
+i learned to make the website responsive.
 
 ### Continued development
 
@@ -57,5 +53,4 @@ i need help with css best practices and im still getting the hang of flexbox
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Allanlcomander](https://www.frontendmentor.io/profile/Allanlcomander)
