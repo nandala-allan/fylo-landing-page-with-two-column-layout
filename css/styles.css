@@ -228,7 +228,6 @@ h2 {
 #mid-section-image img {
   width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 .last-container {
@@ -284,7 +283,6 @@ h2 {
 
 #button-bottom {
   padding: 20px;
-  /* width: 30%; */
   background-color: hsl(224, 93%, 58%);
   color: hsl(0, 0%, 100%);
   font-size: 16px;
@@ -496,6 +494,30 @@ svg {
   }
   .last-container {
     flex-direction: column;
+    width: 100%;
+  }
+  #call-to-action {
+    width: 100%;
+  }
+  #call-to-action h2 {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  #call-to-action p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #call-to-action-form {
+    align-self: center;
+    width: 90%;
+    padding: 0;
+  }
+
+  #button-bottom {
     width: 100%;
   }
 }
