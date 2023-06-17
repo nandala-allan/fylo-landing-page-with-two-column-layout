@@ -338,8 +338,9 @@ svg {
   top: 80px;
 }
 
-.contact-details li {
+.contact-details ul {
   list-style: none;
+  line-height: 40px;
 }
 
 .contact-details li:hover {
